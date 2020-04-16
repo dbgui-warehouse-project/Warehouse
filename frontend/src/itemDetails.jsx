@@ -1,5 +1,7 @@
 import React from 'react';
 
+//page to change an item's settings, NOT make a new item
+
 export class ItemDetails extends React.Component{
     state = {itemID: '',
              itemName: '',

@@ -1,5 +1,7 @@
 import React from 'react';
 
+//page to change overall warehouse settings
+
 export class SettingsForm extends React.Component{
     state = {warehouseName: '', 
              email: '',
